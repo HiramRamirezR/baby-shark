@@ -9,14 +9,17 @@ const modalInvitacion = document.querySelector('.modalInvitacion')
 const modalContador = document.querySelector('.modalContador')
 
 const musica = new Audio('/audio/musica.mp3')
+const sprite = document.querySelector('.sprite')
 
 play.addEventListener('click', () => {
+  sprite.classList.add('movimiento')
   musica.play()
   aPlay.classList.add('hidden')
   aPause.classList.toggle('hidden')
 })
 
 pause.addEventListener('click', () => {
+  sprite.classList.remove('movimiento')
   musica.pause()
   aPlay.classList.toggle('hidden')
   aPause.classList.toggle('hidden')

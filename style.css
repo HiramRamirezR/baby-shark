@@ -2,7 +2,7 @@
 body {
   font-family: "Delicious Handrawn", cursive;
   margin: 0;
-  height: 100vh;
+  height: 130vh;
   background-image: url("/images/bg.png");
   background-size: cover;
   animation: slidein 10s;
@@ -26,6 +26,8 @@ body {
   align-items: center;
 }
 .container .btns {
+  position: fixed;
+  z-index: 10;
   width: 100%;
   height: 3rem;
   background-color: #006aff;
@@ -45,8 +47,8 @@ body {
   top: 3rem;
   z-index: 1;
 }
-.container .barbie {
-  margin-top: 10%;
+.container .babyshark {
+  margin-top: 20%;
   width: 75%;
   z-index: 2;
 }
@@ -67,13 +69,17 @@ body {
 }
 .container .personajes {
   width: 100vw;
+  height: 130vw;
+  min-height: 360px;
   z-index: 3;
   overflow: hidden;
 }
 .container .personajes .sprite {
   width: 400%;
-  animation: move 1s steps(4) infinite;
   /* image-rendering: pixelated; */
+}
+.container .personajes .movimiento {
+  animation: move 1s steps(4) infinite;
 }
 @keyframes move {
   from {
@@ -123,7 +129,7 @@ body {
   font-size: 2em;
 }
 .container .contador {
-  background-color: #e4497f;
+  background-color: #3450ef;
   position: absolute;
   width: 100%;
   top: 45%;
