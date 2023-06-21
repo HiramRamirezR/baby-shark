@@ -67,7 +67,7 @@ body {
 }
 .container .personajes {
   width: 100vw;
-  z-index: 6;
+  z-index: 3;
   overflow: hidden;
 }
 .container .personajes .sprite {
@@ -91,7 +91,7 @@ body {
   left: 10%;
   width: 80%;
   height: 35%;
-  z-index: 3;
+  z-index: 4;
   opacity: 0.8;
 }
 .container .modalInvitacion p {
@@ -108,7 +108,7 @@ body {
   left: 10%;
   width: 80%;
   height: 35%;
-  z-index: 3;
+  z-index: 4;
   opacity: 0.8;
 }
 .container .star {

@@ -80,7 +80,7 @@ body  {
   .personajes {
     // background-color: rgb(21, 255, 0);
     width: 100vw;
-    z-index: 6;
+    z-index: 3;
     overflow: hidden;
 
     .sprite {
@@ -111,7 +111,7 @@ body  {
     left: 10%;
     width: 80%;
     height: 35%;
-    z-index: 3;
+    z-index: 4;
     opacity: .8;
 
     p {
@@ -130,7 +130,7 @@ body  {
     left: 10%;
     width: 80%;
     height: 35%;
-    z-index: 3;
+    z-index: 4;
     opacity: .8;
   }
 
